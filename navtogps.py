@@ -12,7 +12,7 @@ last_timestamp = None
 # Define thresholds for filtering
 TIME_THRESHOLD = 1.5  # seconds, a bit more than 1 Hz to allow some flexibility
 XY_THRESHOLD = 1.5  # meters for x and y, slightly above the maximum walking speed per second
-Z_THRESHOLD = 0.0001  # meters for z
+Z_THRESHOLD = 1  # meters for z
 
 # Initialize the status
 gps_status = -1
